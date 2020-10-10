@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:movie_apps_trasa/model/movieModel.dart';
 import 'package:movie_apps_trasa/models/index.dart';
 import 'package:movie_apps_trasa/network/network.dart';
 

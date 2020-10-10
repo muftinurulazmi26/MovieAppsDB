@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:movie_apps_trasa/custom/itemRatingMovie.dart';
 import 'package:movie_apps_trasa/custom/itemTabs.dart';
 import 'package:movie_apps_trasa/custom/posterMovies.dart';
-import 'package:movie_apps_trasa/model/movieModel.dart';
 import 'package:movie_apps_trasa/models/index.dart';
 import 'package:movie_apps_trasa/services/servicesMovie.dart';
 import 'movieDetail.dart';
 
 class Home extends StatefulWidget {
+  final User user;
+
+  const Home({Key key, this.user}) : super(key: key);
+
   @override
   _HomeState createState() => _HomeState();
 }
